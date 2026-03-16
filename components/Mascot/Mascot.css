@@ -1,0 +1,195 @@
+/* src/components/Mascot/Mascot.css */
+
+/* ─── Keyframe definitions ──────────────────────────────────────────────────── */
+
+@keyframes mascot-float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes mascot-sway {
+  0%   { transform: rotate(-3deg) translateY(0px); }
+  50%  { transform: rotate(3deg) translateY(-6px); }
+  100% { transform: rotate(-3deg) translateY(0px); }
+}
+
+@keyframes mascot-speaking {
+  0%   { transform: scale(1.00); }
+  40%  { transform: scale(1.05); }
+  70%  { transform: scale(0.98); }
+  100% { transform: scale(1.00); }
+}
+
+@keyframes mascot-happy {
+  0%   { transform: translateY(0px) scale(1.00); }
+  15%  { transform: translateY(-20px) scale(1.05); }
+  30%  { transform: translateY(0px) scale(0.97); }
+  45%  { transform: translateY(-12px) scale(1.03); }
+  60%  { transform: translateY(0px) scale(0.99); }
+  75%  { transform: translateY(-6px) scale(1.01); }
+  100% { transform: translateY(0px) scale(1.00); }
+}
+
+@keyframes mascot-thinking {
+  0%   { transform: rotate(-4deg) scale(0.97); }
+  50%  { transform: rotate(4deg) scale(0.97); }
+  100% { transform: rotate(-4deg) scale(0.97); }
+}
+
+@keyframes bubble-in {
+  0%   { opacity: 0; transform: translateY(8px) scale(0.96); }
+  100% { opacity: 1; transform: translateY(0px) scale(1.00); }
+}
+
+@keyframes dot-bounce {
+  0%, 80%, 100% { transform: translateY(0px); }
+  40%           { transform: translateY(-6px); }
+}
+
+@keyframes acc-land {
+  0%   { opacity: 0; transform: translateY(-8px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+/* ─── Container ─────────────────────────────────────────────────────────────── */
+
+.mascot-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ─── Image wrapper ──────────────────────────────────────────────────────────── */
+
+.mascot-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--mascot-size, 200px);
+  height: var(--mascot-size, 200px);
+}
+
+/* ─── Base image ─────────────────────────────────────────────────────────────── */
+
+.mascot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* ─── Animation states ───────────────────────────────────────────────────────── */
+
+.mascot-state-idle-float {
+  animation: mascot-float 4s ease-in-out infinite;
+}
+
+.mascot-state-idle-sway {
+  animation: mascot-sway 5s ease-in-out infinite;
+}
+
+.mascot-state-speaking {
+  animation: mascot-speaking 0.6s ease-in-out infinite;
+}
+
+.mascot-state-happy {
+  animation: mascot-happy 0.9s cubic-bezier(0.36, 0.07, 0.19, 0.97) forwards;
+}
+
+.mascot-state-thinking {
+  animation: mascot-thinking 2.4s ease-in-out infinite;
+}
+
+/* ─── Accessories ────────────────────────────────────────────────────────────── */
+
+.mascot-acc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  animation: acc-land 0.4s ease-out forwards;
+}
+
+/* ─── Speech bubble ──────────────────────────────────────────────────────────── */
+
+.mascot-bubble {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 10px 16px;
+  max-width: 260px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1a1a2e;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  animation: bubble-in 0.3s ease-out forwards;
+  word-break: break-word;
+}
+
+.mascot-bubble::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mascot-bubble {
+    background: #1e1e2e;
+    color: #e2e2f0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  }
+  .mascot-bubble::before {
+    border-bottom-color: #1e1e2e;
+  }
+}
+
+/* ─── Thinking dots ──────────────────────────────────────────────────────────── */
+
+.mascot-thinking-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 2px 0;
+}
+
+.mascot-thinking-dots span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.5;
+  animation: dot-bounce 1.2s ease-in-out infinite;
+}
+
+.mascot-thinking-dots span:nth-child(1) { animation-delay: 0ms; }
+.mascot-thinking-dots span:nth-child(2) { animation-delay: 160ms; }
+.mascot-thinking-dots span:nth-child(3) { animation-delay: 320ms; }
+
+/* ─── Reduced motion ─────────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .mascot-state-idle-float,
+  .mascot-state-idle-sway,
+  .mascot-state-speaking,
+  .mascot-state-happy,
+  .mascot-state-thinking,
+  .mascot-thinking-dots span {
+    animation: none;
+  }
+}

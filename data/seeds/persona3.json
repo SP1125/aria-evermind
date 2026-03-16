@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "persona_id": "persona3",
+    "user_id": "aria-demo-persona3",
+    "name": "Ines",
+    "description": "31-year-old freelance UX researcher and writer, irregular schedule, meaning-driven, disrupted by emotional fluctuations. Left a stable job 6 months ago. Has good weeks and terrible weeks. The meaning connection feature matters most for this persona.",
+    "demo_notes": "Best for showing: emotional state → task rerouting, the meaning-connection reminder feature, and the mascot holding a longer arc ('you've been here before and moved through it')."
+  },
+  "user_profile": {
+    "personality_id": "calm",
+    "nickname": "Ines",
+    "motivation_type": "meaning",
+    "communication_register": "reflective",
+    "anchor_goals": [
+      "Build a freelance practice I'm genuinely proud of — not just survivable but meaningful",
+      "Finish the personal essay collection I've been starting and abandoning for two years"
+    ],
+    "focus_window": {
+      "peak_times": [
+        "morning",
+        "afternoon"
+      ],
+      "max_duration_mins": 75,
+      "prefers_short_bursts": false
+    },
+    "disruption_vulnerability": [
+      {
+        "trigger": "low-meaning period — too many uninspiring client projects back to back",
+        "pattern": "Productivity drops significantly, starts questioning the decision to go freelance, spends hours researching other career paths, personal projects stall completely",
+        "severity": "high"
+      },
+      {
+        "trigger": "emotional disruption — an argument, difficult news, or sustained loneliness",
+        "pattern": "Cannot compartmentalise — the emotional weather of the day infects all work, tries to push through and produces nothing, eventually abandons the day and spirals",
+        "severity": "high"
+      },
+      {
+        "trigger": "no external structure for 3+ days running",
+        "pattern": "Days blur, sleep schedule drifts, mornings are wasted, the absence of rhythm creates low-grade anxiety that makes starting anything harder",
+        "severity": "medium"
+      }
+    ],
+    "task_resistance_pattern": "perfectionism",
+    "emotional_state_map": {
+      "depleted_anxious": {
+        "task_class": "grounding-reflective",
+        "example_tasks": [
+          "10 mins journalling before anything else",
+          "slow walk with no podcast",
+          "read one page of something you love"
+        ]
+      },
+      "depleted_flat": {
+        "task_class": "creative-light",
+        "example_tasks": [
+          "sketch or make notes freely with no goal",
+          "read something purely for pleasure",
+          "tidy the workspace slowly and deliberately"
+        ]
+      },
+      "wired_frustrated": {
+        "task_class": "deep-meaningful-work",
+        "example_tasks": [
+          "write the thing you've been circling",
+          "do the research that actually interests you",
+          "make one concrete decision about the essay"
+        ]
+      },
+      "wired_restless": {
+        "task_class": "creative-exploration",
+        "example_tasks": [
+          "brainstorm the next essay idea",
+          "go somewhere different to work",
+          "start something with no pressure to finish it"
+        ]
+      },
+      "neutral_anxious": {
+        "task_class": "meaning-reflection",
+        "example_tasks": [
+          "reread why you left your job",
+          "look at the work you're most proud of",
+          "write down one thing that felt true this week"
+        ]
+      },
+      "neutral_flat": {
+        "task_class": "purpose-reminder",
+        "example_tasks": [
+          "read one paragraph of your best essay draft",
+          "do one small task on the client project you actually like",
+          "write one sentence — any sentence"
+        ]
+      }
+    },
+    "current_tasks": [
+      {
+        "id": "ux-report-client-a",
+        "name": "Deliver UX research report for Meridian (fintech client)",
+        "type": "ANCHOR",
+        "priority": "high",
+        "deadline": "2026-03-20",
+        "estimated_mins": 180,
+        "tags": [
+          "career"
+        ],
+        "meaning_connection": "This project funds the time you need for the essay. That's not a small thing."
+      },
+      {
+        "id": "essay-draft-chapter1",
+        "name": "Write first full draft of essay 1 ('The Year I Stopped Explaining Myself')",
+        "type": "FLEXIBLE",
+        "priority": "high",
+        "deadline": null,
+        "estimated_mins": 120,
+        "tags": [
+          "creative"
+        ],
+        "meaning_connection": "This essay is the work you left your job to have time for. Every hour on it is the reason the rest of this is worth it."
+      },
+      {
+        "id": "proposal-new-client",
+        "name": "Write project proposal for potential new client (health startup)",
+        "type": "FLEXIBLE",
+        "priority": "high",
+        "deadline": "2026-03-22",
+        "estimated_mins": 90,
+        "tags": [
+          "career"
+        ],
+        "meaning_connection": "The health startup work is the kind of project you actually want more of — this proposal is worth doing well."
+      },
+      {
+        "id": "invoices",
+        "name": "Send outstanding invoices for February work",
+        "type": "ANCHOR",
+        "priority": "high",
+        "deadline": "2026-03-16",
+        "estimated_mins": 30,
+        "tags": [
+          "admin"
+        ],
+        "meaning_connection": ""
+      },
+      {
+        "id": "essay-research",
+        "name": "Read and annotate source material for essay 2",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 60,
+        "tags": [
+          "creative",
+          "academic"
+        ],
+        "meaning_connection": "Essay 2 is waiting for you when essay 1 is drafted. Building the research now means the door is already open."
+      },
+      {
+        "id": "call-sister",
+        "name": "Call sister — she's been going through something",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 45,
+        "tags": [
+          "social"
+        ],
+        "meaning_connection": ""
+      },
+      {
+        "id": "admin-tax",
+        "name": "Set up proper accounting system / receipts",
+        "type": "BUFFER",
+        "priority": "low",
+        "deadline": null,
+        "estimated_mins": 60,
+        "tags": [
+          "admin"
+        ],
+        "meaning_connection": ""
+      }
+    ]
+  },
+  "conversation_history": [
+    {
+      "message_id": "p3-001",
+      "create_time": "2025-12-23T10:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "I'm Ines. I went freelance six months ago from a job at a design consultancy. The work is going okay — enough income, interesting projects sometimes. But I also have this essay collection I've been trying to write for two years and it keeps getting pushed aside. The thing I'm struggling with most is that when I have a bad emotional day — like a difficult conversation, or just waking up low — I can't work at all. I try to push through and it's worse. And then I feel guilty about not working, which makes the emotional thing worse, and nothing gets done. I work best in the mornings when I have structure, but my days are completely unstructured right now and I keep drifting."
+    },
+    {
+      "message_id": "p3-001-reply",
+      "create_time": "2025-12-23T10:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "What you're describing — the push-through spiral — is one of the most draining things I see, because the effort goes into fighting yourself rather than the work. I want to change that. On emotional days, we're not going to try to work through them. We're going to do something small and grounding first, and only then see what's possible. The essay matters. I want to build your schedule so it gets protected time, not just leftover time. What's the essay about — can you tell me, briefly?"
+    },
+    {
+      "message_id": "p3-002",
+      "create_time": "2025-12-24T09:30:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "The essay collection is about identity and self-definition — specifically about the period in my late 20s when I stopped trying to explain myself to people who didn't want to understand. The first essay is already 60% drafted but I keep circling it rather than finishing. Had a good morning today — did 45 mins on the Meridian report and then an hour on the essay. Felt like myself."
+    },
+    {
+      "message_id": "p3-002-reply",
+      "create_time": "2025-12-24T09:31:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "That's the work you're here to do — both of those things, in that order. The essay about self-definition is the reason you left. I want you to remember that on the days it feels indulgent or like you should be doing something more practical. An hour on it is not a luxury, it's the point. The Meridian report funds the time; the essay is what the time is for."
+    },
+    {
+      "message_id": "p3-003",
+      "create_time": "2025-12-25T11:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 1] I had a difficult call with my mum this morning. Nothing catastrophic, just an old argument that came up again about my career choices. I knew she didn't fully understand the freelance thing but she was quite dismissive. Now I'm sitting at my desk and I cannot think about the Meridian report. Everything feels kind of pointless."
+    },
+    {
+      "message_id": "p3-003-reply",
+      "create_time": "2025-12-25T11:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "Don't open the Meridian report. Not yet. That call brought up exactly the thing your essay is about — someone who loves you not quite believing in what you're doing. That's not a small thing to just work through. Here's what I want you to do: close the work, make tea, and write for ten minutes — not the essay, just for yourself. What does it feel like to have built something in six months that actually works, even when someone important doesn't fully see it yet? Write that. Then we'll see how you feel. The report can wait until this afternoon."
+    },
+    {
+      "message_id": "p3-003-resolution",
+      "create_time": "2025-12-25T14:30:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "The writing thing helped more than I expected. Ended up writing for 40 minutes and some of it might go into the essay actually. Did the Meridian report this afternoon — got the analysis section done. I think separating the emotional thing from the work thing, rather than trying to fuse them, is something I need to learn."
+    },
+    {
+      "message_id": "p3-004",
+      "create_time": "2025-12-26T10:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "Good morning. Sent invoices first thing, that's done. Feeling clear today. I want to get the essay draft to 80% — I think if I could just do two hours on it I could get to the ending."
+    },
+    {
+      "message_id": "p3-004-reply",
+      "create_time": "2025-12-26T10:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "Invoices done — that's the kind of admin that hangs over everything. Two hours on the essay: I've blocked 10am-12pm. This is the session. You're clear-headed, you know where you're going with it, and you've been circling the ending for weeks. Don't edit as you go. Write the ending first, even badly, so you know where the draft is headed. You can revise it a hundred times. You can't revise a blank page."
+    },
+    {
+      "message_id": "p3-005",
+      "create_time": "2025-12-26T13:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "I have an 80% draft. I wrote the ending. It's rough but it exists. I sat back and read it and thought — yes, this is the essay. This is what I've been trying to say."
+    },
+    {
+      "message_id": "p3-005-reply",
+      "create_time": "2025-12-26T13:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "I want you to hold that feeling. 'This is what I've been trying to say.' That's why you left. That's what the Meridian report is in service of. This is a genuinely significant moment — not just for the essay, but as proof that when you have structure and clear headspace, the work is there. It was always there. You just needed the conditions."
+    },
+    {
+      "message_id": "p3-006",
+      "create_time": "2025-12-29T10:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 2] Bad weekend. Didn't sleep well either night, and I've been working on a really dull data analysis piece for Meridian that I agreed to as an add-on and now I hate it. It's not the kind of work I want to be doing. I keep thinking I made the wrong call going freelance. Monday morning and I don't want to open anything."
+    },
+    {
+      "message_id": "p3-006-reply",
+      "create_time": "2025-12-29T10:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "You wrote an 80% draft of your essay on Friday. That happened three days ago. I don't want you to lose track of that because a dull data piece and two bad nights of sleep have shifted the weather. The data analysis is not the job. It's one task in a practice you're still building. You don't have to love every piece of work — you have to be honest about which work you take on going forward. For today: do not start with the data analysis. Start with ten minutes on the essay draft, just reading what you wrote, to remind yourself what this is all for. Then do the minimum viable version of the data piece and move on."
+    },
+    {
+      "message_id": "p3-007",
+      "create_time": "2025-12-30T11:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "Rereading the essay helped. I stayed with it for 30 minutes and did some light editing. Then did the data analysis — it took 90 minutes and it's fine. Not my best work but it's done and it's good enough for what it is. I've also decided I'm going to be more selective about the Meridian add-ons going forward. I said yes to that because I thought I should, not because I wanted to."
+    },
+    {
+      "message_id": "p3-007-reply",
+      "create_time": "2025-12-30T11:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "That's a real and important decision. The 'I should' work is the work that drains the whole practice. You have enough evidence now — six months in — to start trusting your instincts about what to take on. Good enough for what it is is exactly right for that piece. The essay is not 'good enough for what it is.' The essay gets your best. You're getting clearer on the distinction."
+    },
+    {
+      "message_id": "p3-008",
+      "create_time": "2025-12-31T09:30:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "Working on the health startup proposal this morning. I actually like this brief — they're trying to make healthcare navigation less dehumanising, which is exactly the kind of thing I care about. Feeling engaged in a way I haven't with some of the recent work."
+    },
+    {
+      "message_id": "p3-008-reply",
+      "create_time": "2025-12-31T09:31:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "Notice that feeling. That's the signal. The work that feels like this — the kind where the brief touches something you actually care about — is the work your practice should be moving toward. Write that proposal like it matters, because it does. Not just for the income, but as an example of what you want more of."
+    },
+    {
+      "message_id": "p3-009",
+      "create_time": "2026-01-01T15:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 3] I've been staring at the Meridian final report for two hours. I keep rewriting the opening paragraph. I know it's good enough but I can't let it go. It's not even the most important section. I think I'm in my own way."
+    },
+    {
+      "message_id": "p3-009-reply",
+      "create_time": "2026-01-01T15:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "Two hours on one paragraph is the perfectionism pattern. Here's what I want you to do: mark the opening paragraph with a comment that says 'revise later' and move to the next section. You don't have to fix it now. The report as a whole matters more than the first impression of the first paragraph. Get the full draft done today. You can come back to the opening tomorrow with fresh eyes — it almost always looks better than you thought, or the fix is obvious in 5 minutes when you're not tunnel-visioned on it."
+    },
+    {
+      "message_id": "p3-009-resolution",
+      "create_time": "2026-01-01T18:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "Marked it, moved on, got the full draft done. Reread the opening this evening and it's fine. It's actually fine. I've sent it to the client. The paragraph I agonised over for two hours is the one I barely changed."
+    },
+    {
+      "message_id": "p3-010",
+      "create_time": "2026-01-02T10:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "Called my sister last night — she's going through a rough patch in her relationship. Glad I called. It helped her and honestly it helped me too, I felt less in my own head afterwards. This morning I want to work on the essay — the structure feels right but there's a section in the middle I'm avoiding."
+    },
+    {
+      "message_id": "p3-010-reply",
+      "create_time": "2026-01-02T10:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "The middle section you're avoiding is where the essay lives — that's almost always true. It's the part that's hardest to write because it's the part that's closest to the real thing. The avoidance is a signal, not an obstacle. I want you to go there first today, not last. Write it badly if you have to. The call with your sister — that's part of the same work, actually. Staying in contact with what matters keeps the writing honest."
+    },
+    {
+      "message_id": "p3-011",
+      "create_time": "2026-01-03T11:00:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 4] I woke up this morning with this familiar dread — like, is any of this actually going to amount to anything? The essay, the practice, the whole thing. I know it's probably just low blood sugar and tiredness but it doesn't feel like that from inside it. I don't really want to do anything."
+    },
+    {
+      "message_id": "p3-011-reply",
+      "create_time": "2026-01-03T11:01:00Z",
+      "sender": "aria-demo-persona3",
+      "role": "assistant",
+      "content": "I know this feeling. You've had it before, and you've written through it before. Two weeks ago you had a difficult call with your mum and wrote something that might go into the essay. Last Monday you had a bad weekend and thought you'd made the wrong call — and then on Tuesday you wrote a sentence about the health startup brief that reminded you exactly why you're doing this. The dread is part of the process, not a verdict on it. You don't have to answer the big question today. Your only task this morning is: eat something, go outside for fifteen minutes, and come back. That's it. The essay will still be there. It's not going anywhere. Neither are you."
+    }
+  ]
+}

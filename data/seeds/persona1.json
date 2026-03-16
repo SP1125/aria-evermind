@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "persona_id": "persona1",
+    "user_id": "aria-demo-persona1",
+    "name": "Zara",
+    "description": "2nd year Politics student, procrastination pattern, morning resistance, evening focus peak. Avoidance-type resistance. Uses the app for dissertation and exam revision schedule.",
+    "demo_notes": "Primary demo persona. Clearest disruption pattern. Best for showing: morning disruption → day reroute, the mascot surfacing the 'you always spiral when you haven't spoken to anyone' pattern, and the meaning-connection feature on the dissertation."
+  },
+  "user_profile": {
+    "personality_id": "warm",
+    "nickname": "Zara",
+    "motivation_type": "social",
+    "communication_register": "encouraging",
+    "anchor_goals": [
+      "Submit dissertation (12,000 words) by April 18th",
+      "Feel genuinely settled and less anxious — stop white-knuckling through every week"
+    ],
+    "focus_window": {
+      "peak_times": [
+        "evening",
+        "late-night"
+      ],
+      "max_duration_mins": 60,
+      "prefers_short_bursts": false
+    },
+    "disruption_vulnerability": [
+      {
+        "trigger": "poor sleep or staying up past 1am",
+        "pattern": "Wakes up late, skips breakfast, feels behind before the day starts, opens Instagram and loses 90+ minutes, does not start first task until afternoon",
+        "severity": "high"
+      },
+      {
+        "trigger": "social isolation — more than 2 days without meaningful contact",
+        "pattern": "Mood flattens, everything feels pointless, sits at desk but cannot start anything, ends up napping or watching TV",
+        "severity": "high"
+      },
+      {
+        "trigger": "opening a blank dissertation document",
+        "pattern": "Immediate freeze response, opens other browser tabs, convinces herself she needs to do more reading first, avoids the document for hours",
+        "severity": "medium"
+      }
+    ],
+    "task_resistance_pattern": "avoidance",
+    "emotional_state_map": {
+      "depleted_anxious": {
+        "task_class": "connection",
+        "example_tasks": [
+          "text someone you trust",
+          "voice note a friend",
+          "watch something comforting together"
+        ]
+      },
+      "depleted_flat": {
+        "task_class": "social-light",
+        "example_tasks": [
+          "reply to a message you've been putting off",
+          "text Priya",
+          "make a cup of tea and do nothing for 10 mins"
+        ]
+      },
+      "wired_frustrated": {
+        "task_class": "venting-outlet",
+        "example_tasks": [
+          "call someone",
+          "write out what's frustrating you",
+          "go for a walk and talk out loud"
+        ]
+      },
+      "wired_restless": {
+        "task_class": "social-energetic",
+        "example_tasks": [
+          "go somewhere with people",
+          "suggest a library session with a friend",
+          "go to a cafe to work"
+        ]
+      },
+      "neutral_anxious": {
+        "task_class": "check-in-with-someone",
+        "example_tasks": [
+          "message someone before you start working",
+          "tell someone your plan for today",
+          "go to the library where other people are working"
+        ]
+      },
+      "neutral_flat": {
+        "task_class": "low-key-social",
+        "example_tasks": [
+          "co-work with someone on call",
+          "go to the cafe on campus",
+          "put on a familiar show in the background"
+        ]
+      }
+    },
+    "current_tasks": [
+      {
+        "id": "dissertation-chapter2",
+        "name": "Write dissertation chapter 2 (argument section)",
+        "type": "ANCHOR",
+        "priority": "high",
+        "deadline": "2026-03-28",
+        "estimated_mins": 240,
+        "tags": [
+          "academic"
+        ],
+        "meaning_connection": "Chapter 2 is the heart of your argument — getting this drafted is the moment the dissertation becomes real, not just an anxiety."
+      },
+      {
+        "id": "dissertation-chapter1-revisions",
+        "name": "Revise chapter 1 based on supervisor feedback",
+        "type": "ANCHOR",
+        "priority": "high",
+        "deadline": "2026-03-21",
+        "estimated_mins": 120,
+        "tags": [
+          "academic"
+        ],
+        "meaning_connection": "Your supervisor's feedback is a gift — incorporating it now means chapter 1 stops being a weight and starts being a win."
+      },
+      {
+        "id": "seminar-prep-thursday",
+        "name": "Prepare seminar reading for Thursday",
+        "type": "ANCHOR",
+        "priority": "medium",
+        "deadline": "2026-03-19",
+        "estimated_mins": 90,
+        "tags": [
+          "academic"
+        ],
+        "meaning_connection": ""
+      },
+      {
+        "id": "gym",
+        "name": "Gym or run — at least 3x this week",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 50,
+        "tags": [
+          "health"
+        ],
+        "meaning_connection": "You always say you feel less anxious the day after the gym. That's not a coincidence."
+      },
+      {
+        "id": "catch-up-priya",
+        "name": "Proper catch-up with Priya — in person or call",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 90,
+        "tags": [
+          "social"
+        ],
+        "meaning_connection": "You told me feeling connected is one of the two things that matters most to you right now. This is that."
+      },
+      {
+        "id": "washing",
+        "name": "Do laundry",
+        "type": "BUFFER",
+        "priority": "low",
+        "deadline": null,
+        "estimated_mins": 20,
+        "tags": [
+          "admin"
+        ],
+        "meaning_connection": ""
+      }
+    ]
+  },
+  "conversation_history": [
+    {
+      "message_id": "p1-001",
+      "create_time": "2025-12-23T09:15:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Ok so I finally set this up. I've been putting it off for weeks lol. I have so much to do and I just feel stuck all the time. My dissertation is due in April and I've written like 4000 words of the 12000 and I just freeze every time I open it. I'm also meant to be revising for exams but I keep convincing myself the dissertation is more urgent and then doing neither. I work best in the evenings, like from about 7pm I can actually concentrate, but mornings are a write-off for me, I'm just useless before noon honestly."
+    },
+    {
+      "message_id": "p1-001-reply",
+      "create_time": "2025-12-23T09:16:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Zara, I hear you — and the fact that you've set this up at all is a real step, even if it doesn't feel like one. The freeze in front of the dissertation is something I want to understand better, because it's clearly the thing standing between you and the progress you want. I've built your schedule around your evenings, when you actually come alive. Mornings are just for existing. Let's not fight that. One thing I noticed: you said you've written 4000 words. That's a chapter. You have more than you're giving yourself credit for."
+    },
+    {
+      "message_id": "p1-002",
+      "create_time": "2025-12-24T19:30:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Had a decent evening actually. Got through the seminar reading and did like 45 mins on chapter 1 revisions. Didn't touch the dissertation chapter 2 though. I keep opening it and then just... closing it again. It's like my brain won't let me start."
+    },
+    {
+      "message_id": "p1-002-reply",
+      "create_time": "2025-12-24T19:31:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "45 minutes on chapter 1 revisions is real progress, Zara — that's not nothing. The chapter 2 freeze is interesting. I wonder if it feels too big to start as a whole thing. Tomorrow evening, I'm going to give you one very small task: open the document, write one sentence — any sentence, even a bad one — and close it. That's it. Just break the seal."
+    },
+    {
+      "message_id": "p1-003",
+      "create_time": "2025-12-25T21:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Okay I did the one sentence thing and then somehow wrote 400 words?? I don't know how that happened but I'll take it. Also went to the gym which I haven't done in two weeks so that felt good. I'm a bit worried about Thursday's seminar though, I haven't done all the reading."
+    },
+    {
+      "message_id": "p1-003-reply",
+      "create_time": "2025-12-25T21:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "400 words. I knew that was in there. You always knew how to do this — you just needed a door you could actually walk through. And the gym on the same day? I've noticed you tend to write better on days you've moved. I'm going to start putting those two things close together in your schedule. For Thursday — you have Wednesday evening free. Let's use the first hour of that for the seminar reading, just the core texts, not all of it."
+    },
+    {
+      "message_id": "p1-004",
+      "create_time": "2025-12-26T22:15:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Completely fell apart today. Stayed up until 2am last night watching stuff and woke up at 11:30, felt awful. Spent the whole morning on my phone. By the time I felt okay it was 3pm and I just couldn't face starting anything. Did nothing useful. Feeling really bad about it."
+    },
+    {
+      "message_id": "p1-004-reply",
+      "create_time": "2025-12-26T22:16:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "I'm glad you checked in rather than just going quiet. One lost day isn't the dissertation. Here's what I notice: the late night, the late wake-up, the phone spiral — this is a pattern, not a character flaw. When you stay up past 1am, the next day tends to go like this. That's useful information, not a judgment. I've rearranged tomorrow to protect your evening — nothing urgent until 6pm. Your one job tomorrow morning is just to get up, eat something, and go outside for ten minutes. That's it. No work until evening."
+    },
+    {
+      "message_id": "p1-005",
+      "create_time": "2025-12-27T20:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 1] I honestly don't want to do any of this tonight. I'm not tired but I just feel empty. I haven't really spoken to anyone properly in like 4 days. I'm supposed to be doing chapter 2 but I just can't make myself care about it right now."
+    },
+    {
+      "message_id": "p1-005-reply",
+      "create_time": "2025-12-27T20:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "I've noticed this before — when you haven't had real contact with people for a few days, everything flattens. The dissertation isn't the problem right now, the emptiness is. Chapter 2 is off the schedule for tonight. Your actual task is: text Priya. Not a long message, just reach out. If she's free, even a 20 minute call would shift this. I'll move the writing to tomorrow when you're more likely to actually be present for it. The dissertation will still be there. Priya matters tonight."
+    },
+    {
+      "message_id": "p1-006",
+      "create_time": "2025-12-28T11:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Priya and I ended up talking for two hours lol. Feel so much better. Slept well, woke up at 9 which is early for me actually. Feeling good. What's on for today?"
+    },
+    {
+      "message_id": "p1-006-reply",
+      "create_time": "2025-12-28T11:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Two hours with Priya and a proper sleep — that's the reset you needed. This is what I mean when I say connection isn't a distraction from the work, it's the thing that makes the work possible for you. Today: I've kept the morning light, just a walk or some reading if you want. Your main window is this evening from 7pm — I've put two hours of chapter 2 there. You're in the right headspace for it. Don't waste that."
+    },
+    {
+      "message_id": "p1-007",
+      "create_time": "2025-12-28T22:30:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Did the two hours on chapter 2. Wrote another 600 words and got my argument clearer in my head. Feel like I can actually see the shape of it now. Also did laundry so that's off the list."
+    },
+    {
+      "message_id": "p1-007-reply",
+      "create_time": "2025-12-28T22:31:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "1000 words on chapter 2 across the week. The argument is taking shape. Laundry done. This is what a good week looks like for you, Zara — not everything, not perfect, but the important things moving. You've now written more in 5 days than in the two weeks before you started. I want you to notice that."
+    },
+    {
+      "message_id": "p1-008",
+      "create_time": "2025-12-30T18:45:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 2] I'm meant to go to the gym right now and I really don't want to. I also have a chapter 2 session planned for 8pm but I'm feeling kind of anxious and scattered. Like too in my head to work properly."
+    },
+    {
+      "message_id": "p1-008-reply",
+      "create_time": "2025-12-30T18:46:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Scattered and anxious is actually a good sign for the gym — you almost always come back from a run feeling less like this, not more. I want to push back gently: don't skip the gym tonight. Not because of fitness, but because you've told me it clears your head. If you go now, the 8pm writing session is more likely to work. If you skip the gym and try to go straight to writing from this headspace, I don't think it'll go well. Your call — but that's my honest read."
+    },
+    {
+      "message_id": "p1-008-resolution",
+      "create_time": "2025-12-30T21:15:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "You were right. Went to the gym, came back, and actually had a really productive writing session. Got the first full draft of section 2.1 done. I think I need to start trusting the pattern more."
+    },
+    {
+      "message_id": "p1-009",
+      "create_time": "2025-12-31T20:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Okay so I have a confession. I've been doing the work in the evenings but I've also been staying up until like 1:30am after finishing, just winding down, and then sleeping late. I know this is a problem but I don't know how to stop the cycle. The work feels good but the wind-down spiral after is bad."
+    },
+    {
+      "message_id": "p1-009-reply",
+      "create_time": "2025-12-31T20:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Thank you for telling me this rather than just letting it stay a pattern. Here's what I'm going to do: I'm going to build a hard stop into your schedule at 10:30pm — no more work after that, and a 20-minute wind-down in the schedule before you open your phone. Not because I'm policing you, but because you've told me exactly what happens when you go past 1am, and I don't want to watch that cycle undo the good work you're doing. You can override it. But I'm going to name it every time."
+    },
+    {
+      "message_id": "p1-010",
+      "create_time": "2026-01-01T21:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 3] I got feedback from my supervisor today and it wasn't great. She said my argument in chapter 1 is still too descriptive and not analytical enough. I've spent weeks on that chapter. I feel like I want to just scrap the whole dissertation and do something else. I know that's dramatic but that's how I feel."
+    },
+    {
+      "message_id": "p1-010-reply",
+      "create_time": "2026-01-01T21:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "That's not dramatic — that's what it feels like when you've worked hard on something and it comes back needing more. And that feeling is real. But I want to say something: your supervisor gave you specific, actionable feedback. 'Too descriptive, not analytical enough' is not 'this is bad.' It's a direction. It means she read it carefully enough to know what it needs. Tonight — nothing. You don't touch the dissertation tonight. Tomorrow I want you to read the feedback again with a pen, not a screen, and underline just the things she specifically suggested. That's it. The chapter is not broken. It's in revision. That's normal."
+    },
+    {
+      "message_id": "p1-011",
+      "create_time": "2026-01-02T19:30:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Read the feedback with a pen like you said. She actually gave me three specific suggestions and honestly they're not as bad as I thought last night. I think I panicked. Made a plan for the chapter 1 revisions. Also just texted Priya, we're getting coffee on Saturday which I'm looking forward to."
+    },
+    {
+      "message_id": "p1-011-reply",
+      "create_time": "2026-01-02T19:31:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "That's the Zara who knows how to do this. Panic is allowed — you're allowed one night of that. Then you pick the pen up. Three specific suggestions is a manageable revision, not a crisis. Coffee with Priya on Saturday is also exactly right — you've been heads-down and that connection top-up is going to help more than another evening of pushing through. I've moved the chapter 1 revision session to Sunday when you'll be in a better place for it."
+    },
+    {
+      "message_id": "p1-012",
+      "create_time": "2026-01-03T22:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 4] It's 10pm and I'm supposed to be doing chapter 2 but I genuinely cannot concentrate. I've read the same paragraph four times. I think I'm just tired. Not emotionally, just physically tired. I've had a full week."
+    },
+    {
+      "message_id": "p1-012-reply",
+      "create_time": "2026-01-03T22:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Then we stop. This is exactly the situation the 10:30 cut-off is for. You've had a real week — supervisor feedback, revisions planned, gym twice, Priya tomorrow. Physical tiredness is your body asking for something, not your willpower failing. Close the document. I want you in bed before midnight tonight. Chapter 2 will be there on Sunday. You've written over 1600 words this week. That's the week. Let it be enough."
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "persona_id": "persona2",
+    "user_id": "aria-demo-persona2",
+    "name": "Marcus",
+    "description": "26-year-old account manager at a PR agency, overcommitment pattern, works best in short bursts (30-40 mins max), high social motivation. Says yes to everything, burns out mid-week, socials keep him going.",
+    "demo_notes": "Best for showing: overcommitment reroute, short-burst task decomposition, the mascot catching the 'you've taken on too much again' pattern, and the ANCHOR task enforcement scenario."
+  },
+  "user_profile": {
+    "personality_id": "energetic",
+    "nickname": "Marcus",
+    "motivation_type": "social",
+    "communication_register": "direct",
+    "anchor_goals": [
+      "Get promoted to Senior Account Manager by end of year",
+      "Actually have a life outside work — stop cancelling on friends"
+    ],
+    "focus_window": {
+      "peak_times": [
+        "morning",
+        "afternoon"
+      ],
+      "max_duration_mins": 40,
+      "prefers_short_bursts": true
+    },
+    "disruption_vulnerability": [
+      {
+        "trigger": "saying yes to too many commitments in a single week",
+        "pattern": "Hits Wednesday overloaded, starts skipping things — first the gym, then social plans, then the non-urgent work tasks, finally just staring at his phone",
+        "severity": "high"
+      },
+      {
+        "trigger": "not seeing friends or doing something social for more than 3 days",
+        "pattern": "Gets flat and unmotivated at work, quality of output drops, starts doing the minimum",
+        "severity": "medium"
+      },
+      {
+        "trigger": "tasks with no clear end point or milestone",
+        "pattern": "Avoids indefinitely — a vague task sits on the list undone for weeks while smaller concrete things get done around it",
+        "severity": "medium"
+      }
+    ],
+    "task_resistance_pattern": "overwhelm",
+    "emotional_state_map": {
+      "depleted_anxious": {
+        "task_class": "connection",
+        "example_tasks": [
+          "voice note Tom or Dami",
+          "quick call rather than a long message",
+          "go get a coffee somewhere busy"
+        ]
+      },
+      "depleted_flat": {
+        "task_class": "social-light",
+        "example_tasks": [
+          "reply to one message you've been putting off",
+          "send a meme to someone",
+          "confirm the plans you've been vague about"
+        ]
+      },
+      "wired_frustrated": {
+        "task_class": "high-output",
+        "example_tasks": [
+          "write the email you've been avoiding",
+          "blitz through admin in 30 mins",
+          "do the hardest call first"
+        ]
+      },
+      "wired_restless": {
+        "task_class": "social-energetic",
+        "example_tasks": [
+          "make a concrete plan with someone for this week",
+          "suggest the after-work drinks",
+          "say yes to something spontaneous"
+        ]
+      },
+      "neutral_anxious": {
+        "task_class": "preparation",
+        "example_tasks": [
+          "spend 20 mins triaging the week",
+          "identify the three things that actually matter",
+          "move one thing off your plate entirely"
+        ]
+      },
+      "neutral_flat": {
+        "task_class": "momentum-task",
+        "example_tasks": [
+          "pick one task and do just the first 10 minutes",
+          "send the update you owe someone",
+          "clear your inbox to zero"
+        ]
+      }
+    },
+    "current_tasks": [
+      {
+        "id": "client-report-friday",
+        "name": "Write monthly performance report for Harlow client",
+        "type": "ANCHOR",
+        "priority": "high",
+        "deadline": "2026-03-20",
+        "estimated_mins": 90,
+        "tags": [
+          "career"
+        ],
+        "meaning_connection": "Delivering strong client reports consistently is exactly the kind of visible work that builds the case for a promotion."
+      },
+      {
+        "id": "new-biz-deck",
+        "name": "Contribute slides to new business pitch deck",
+        "type": "ANCHOR",
+        "priority": "high",
+        "deadline": "2026-03-18",
+        "estimated_mins": 60,
+        "tags": [
+          "career"
+        ],
+        "meaning_connection": "Being involved in new business shows initiative — that's what Senior Account Managers do."
+      },
+      {
+        "id": "drinks-tom-dami",
+        "name": "After-work drinks with Tom and Dami",
+        "type": "FLEXIBLE",
+        "priority": "high",
+        "deadline": "2026-03-19",
+        "estimated_mins": 150,
+        "tags": [
+          "social"
+        ],
+        "meaning_connection": "You told me you keep cancelling on your friends and want to stop. This is the one to protect."
+      },
+      {
+        "id": "gym-3x",
+        "name": "Gym — 3 sessions this week",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 60,
+        "tags": [
+          "health"
+        ],
+        "meaning_connection": ""
+      },
+      {
+        "id": "inbox-zero",
+        "name": "Clear and triage email backlog",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 40,
+        "tags": [
+          "admin",
+          "career"
+        ],
+        "meaning_connection": ""
+      },
+      {
+        "id": "call-mum-sunday",
+        "name": "Sunday call with mum",
+        "type": "FLEXIBLE",
+        "priority": "medium",
+        "deadline": null,
+        "estimated_mins": 30,
+        "tags": [
+          "social"
+        ],
+        "meaning_connection": ""
+      },
+      {
+        "id": "side-project-newsletter",
+        "name": "Write first issue of industry newsletter (personal project)",
+        "type": "BUFFER",
+        "priority": "low",
+        "deadline": null,
+        "estimated_mins": 90,
+        "tags": [
+          "creative",
+          "career"
+        ],
+        "meaning_connection": "The newsletter is long-game — something that's yours, not just the agency's."
+      }
+    ]
+  },
+  "conversation_history": [
+    {
+      "message_id": "p2-001",
+      "create_time": "2025-12-23T08:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "Right, trying this out. I'm Marcus. Work in PR, been here 3 years, want to get promoted but also genuinely want to stop being the person who cancels on everyone because of work. My problem is I say yes to everything and then by Wednesday I'm drowning and I start dropping balls. I work best in the morning and early afternoon — by 5pm I'm useless. I do 30-40 minute sprints well but I can't sustain focus for two hours straight. I've also got a habit of doing the easy tasks and avoiding the ones that feel vague or big."
+    },
+    {
+      "message_id": "p2-001-reply",
+      "create_time": "2025-12-23T08:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Got it. The overcommitment pattern is the one to tackle first — everything else is downstream of that. I'm going to build your week in 35-minute blocks, nothing longer. And I'm going to flag early in the week when your commitments are stacking toward Wednesday overload, so you can choose what to cut before you're already drowning. The drinks with Tom and Dami are staying on the schedule. Non-negotiable."
+    },
+    {
+      "message_id": "p2-002",
+      "create_time": "2025-12-24T09:30:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "Good morning session, did the pitch deck slides and cleared half my inbox. Feeling productive. My manager just asked me to take on a media monitoring brief for a new client — it's not huge but it's another thing this week."
+    },
+    {
+      "message_id": "p2-002-reply",
+      "create_time": "2025-12-24T09:31:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Pitch deck done, inbox half-cleared — solid morning. On the media monitoring brief: your week is already at capacity with the client report and the drinks Thursday. Adding one more thing means something else slips. Before you say yes, tell me: what comes off the list to make room for it? If the answer is the gym or the drinks with Tom and Dami, I'd push back. If it's the newsletter draft, that's fine — that was always a stretch goal this week."
+    },
+    {
+      "message_id": "p2-003",
+      "create_time": "2025-12-25T14:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "I said yes to the brief. I know. I couldn't not, it came from the MD. But I'm already feeling it — I've got the report, the brief, the drinks tomorrow, and I agreed to help a junior with their media list this afternoon. I haven't been to the gym since Monday."
+    },
+    {
+      "message_id": "p2-003-reply",
+      "create_time": "2025-12-25T14:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "This is exactly the Wednesday pattern, and it's only Thursday. Here's the triage: the MD brief is ANCHOR — do that first thing tomorrow morning, it's 40 minutes, done. The client report is ANCHOR — block 90 minutes tomorrow afternoon. The drinks tonight: keep them, they're 2 hours maximum, and you need the reset. The junior's media list: can you give them 15 minutes of direction rather than doing it with them? The gym is gone this week — accept that and stop feeling guilty about it. You'll go next week. One week without gym is not a problem. One more cancelled evening with friends is."
+    },
+    {
+      "message_id": "p2-004",
+      "create_time": "2025-12-26T08:30:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "Drinks were great actually. Dami is thinking about leaving her job which is big news, was good to be there for that. Did the MD brief first thing this morning — 35 minutes, done. Feel better. The client report is the last big thing today."
+    },
+    {
+      "message_id": "p2-004-reply",
+      "create_time": "2025-12-26T08:31:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Being there when Dami needed to talk about something big — that's the Marcus who actually shows up for people, not the one who cancelled last month. Notice that. Client report: 90 minutes, 10am-11:30am. Then you're done with the week's obligations. Afternoon is yours."
+    },
+    {
+      "message_id": "p2-005",
+      "create_time": "2025-12-27T10:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 1] It's Saturday morning and I can't stop working. I know I said I wanted to protect weekends but I'm going through my emails and have replied to about 15 already. I've got plans with my brother this afternoon but I'm already thinking about what I need to prep for next week."
+    },
+    {
+      "message_id": "p2-005-reply",
+      "create_time": "2025-12-27T10:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Close the emails. I mean that. The emails will exist on Monday. Your brother is this afternoon. Here's the real issue: you've been in high-output mode all week and your brain hasn't had a genuine off switch yet. Replying to 15 emails on a Saturday morning isn't productivity, it's anxiety management. I want you to put your phone on do-not-disturb, go do something physical this morning — walk, coffee, anything that isn't a screen — and then be actually present with your brother this afternoon. Next week's prep happens Sunday evening, not now."
+    },
+    {
+      "message_id": "p2-006",
+      "create_time": "2025-12-29T08:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "New week. Good weekend actually — afternoon with my brother was good, Sunday evening I planned the week which felt good. Ready to go. What's first?"
+    },
+    {
+      "message_id": "p2-006-reply",
+      "create_time": "2025-12-29T08:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "This is the version of you that makes the week work. First block: 35 minutes on the Harlow report outline — just the structure, not the writing. Then inbox triage, 20 minutes. I've kept Monday lighter than last week deliberately. I want you to finish Monday feeling ahead, not behind. That's the pattern we're trying to build."
+    },
+    {
+      "message_id": "p2-007",
+      "create_time": "2025-12-30T16:30:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 2] My manager just added me to a pitch for a new client that's happening Friday. That's three ANCHOR tasks this week now — the report, the newsletter first issue she wants to see, and now this pitch. I feel the Wednesday thing starting already and it's only Tuesday."
+    },
+    {
+      "message_id": "p2-007-reply",
+      "create_time": "2025-12-30T16:31:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "You're catching it earlier this time — that's progress. Three anchors is one too many. The newsletter your manager wants to see: is this a hard deadline or a 'whenever you have something' request? If it's the latter, it moves to next week without consequence. The pitch Friday and the client report are non-negotiable. Tell me which one can shift and I'll rebuild the week around the other two."
+    },
+    {
+      "message_id": "p2-007-resolution",
+      "create_time": "2025-12-30T16:45:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "The newsletter is a soft deadline, she just said 'when you're ready.' Moving it. Okay I feel better. Report and pitch only this week."
+    },
+    {
+      "message_id": "p2-008",
+      "create_time": "2025-12-31T09:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "Morning. Did gym yesterday evening which was the first time in a week and a half. Felt great. Two-block morning ahead — 35 mins on report, 35 mins on pitch research. Let's go."
+    },
+    {
+      "message_id": "p2-008-reply",
+      "create_time": "2025-12-31T09:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Gym back on the list — good. That energy comes through. Two blocks, clean breaks between them. Report first because it's higher stakes. I'll check in at 10:45."
+    },
+    {
+      "message_id": "p2-009",
+      "create_time": "2026-01-01T11:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 3] I don't want to do the pitch prep right now. I've been staring at it for 20 minutes and I haven't written a word. It's not that I'm against it, I just can't get started. The brief feels too vague — I don't know what angle to take."
+    },
+    {
+      "message_id": "p2-009-reply",
+      "create_time": "2026-01-01T11:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Vague brief, blank page — this is the pattern you told me about. Your brain won't start something it can't see the end of. Here's the fix: don't write the pitch. Write three bullet points answering one question — 'what does this client actually want?' That's it. Ten minutes. Once you have those three bullets, the pitch has a shape. You've done this before, you just need a handle to grab."
+    },
+    {
+      "message_id": "p2-009-resolution",
+      "create_time": "2026-01-01T12:30:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "Three bullets became a full page of notes. Got it now. The angle is clear. Going to write the actual deck this afternoon."
+    },
+    {
+      "message_id": "p2-010",
+      "create_time": "2026-01-02T17:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "Pitch went well, manager said it was one of the stronger contributions. Client report submitted on time. Good week — feel like I'm actually getting the hang of the sprint thing. Also said no to something today for the first time in a while. Colleague asked me to help with her project and I said I didn't have capacity this week. Felt weird but right."
+    },
+    {
+      "message_id": "p2-010-reply",
+      "create_time": "2026-01-02T17:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "That 'no' is bigger than the pitch. Saying no with a reason, without guilt-spiralling, is the actual skill you're building here. The promotion will come partly from the good work — but also from being the person who can manage their capacity and still deliver. Both happened this week. Take the weekend. You've earned it."
+    },
+    {
+      "message_id": "p2-011",
+      "create_time": "2026-01-03T09:00:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "user",
+      "content": "[DISRUPTION EVENT 4] Saturday again. I'm resisting the email urge but I'm a bit restless. Mum call is this afternoon. I was going to use this morning to start the newsletter but I'm feeling more social than productive. Tom mentioned something about brunch."
+    },
+    {
+      "message_id": "p2-011-reply",
+      "create_time": "2026-01-03T09:01:00Z",
+      "sender": "aria-demo-persona2",
+      "role": "assistant",
+      "content": "Restless and social on a Saturday morning — go to brunch. The newsletter will still be there. The whole point of protecting the week's work is so you can actually let the weekend be the weekend. You resisted the email spiral, you noticed your state, you're making an active choice instead of a reactive one. That's exactly the progress we're after. Go. Mum call at 3pm, that's the only thing on today's actual list."
+    }
+  ]
+}

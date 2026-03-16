@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "persona_id": "persona1-extended",
+    "user_id": "aria-demo-persona1",
+    "name": "Zara",
+    "description": "Weeks 3-4 of Zara's history. Adds: pre-deadline panic, social isolation arc, gym-writing correlation x3 more instances, and a genuine recovery. These weeks give EverMemOS enough data to surface second-order patterns.",
+    "demo_notes": "Seed AFTER persona1.json. Same userId so EverMemOS appends to existing memory. Run: node --env-file=.env.local data/seeds/seed-extended.js"
+  },
+  "conversation_history": [
+    {
+      "message_id": "p1-ext-001",
+      "create_time": "2026-01-05T20:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Third week in. Starting to feel the dissertation pressure for real. My supervisor wants to see a full chapter 2 draft by the end of next week and I've only got about 600 words. Went to the gym this afternoon though which helped — managed to write for 90 minutes straight after, best session in weeks."
+    },
+    {
+      "message_id": "p1-ext-001-reply",
+      "create_time": "2026-01-05T20:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "I've noticed this pattern before — gym in the afternoon, then your best writing happens. It's not a coincidence. I'm locking in gym before dissertation every evening this week. The chapter 2 deadline is real but you have the time if you protect the evenings. 600 words is a foundation, not a failure."
+    },
+    {
+      "message_id": "p1-ext-002",
+      "create_time": "2026-01-06T21:30:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Skipped the gym today, told myself I'd just get straight to writing instead. Sat at the desk for two hours and wrote about 80 words. Classic. I know I need the gym first but I keep thinking I'll save time by skipping it."
+    },
+    {
+      "message_id": "p1-ext-002-reply",
+      "create_time": "2026-01-06T21:31:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "80 words in two hours versus 90 minutes of flow after the gym. This is the third time I've seen this exact thing happen. The gym isn't wasting time — skipping it is. Tomorrow the gym goes back in before anything else. Non-negotiable."
+    },
+    {
+      "message_id": "p1-ext-003",
+      "create_time": "2026-01-07T22:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Went to the gym. Wrote 800 words after. I genuinely cannot argue with the data at this point. Also Priya and I spoke for an hour which was good, I hadn't realised how much I needed that. Feeling significantly less like everything is hopeless."
+    },
+    {
+      "message_id": "p1-ext-003-reply",
+      "create_time": "2026-01-07T22:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "800 words. And you noticed the Priya effect yourself this time. These two things — moving your body and talking to someone you trust — are not optional extras for you. They're the conditions under which you actually work. You're learning what you need. That's the point."
+    },
+    {
+      "message_id": "p1-ext-004",
+      "create_time": "2026-01-08T19:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Seminar went okay. Chapter 2 is now at about 2,000 words which feels more real. Still need another 1,500 by Friday. Feeling a bit disconnected from everything else going on though — like I've been in dissertation mode so long I've forgotten other people exist."
+    },
+    {
+      "message_id": "p1-ext-004-reply",
+      "create_time": "2026-01-08T19:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "2,000 words is more than a third of the chapter. The disconnection you're describing is the early warning sign I've seen before — when you go too long without real contact, the whole thing starts to feel pointless. I've added a social touchpoint on Thursday, before the Friday push. Don't skip it."
+    },
+    {
+      "message_id": "p1-ext-005",
+      "create_time": "2026-01-09T23:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "DISRUPTION — I haven't spoken to anyone except flatmates in passing for 5 days. Didn't go to the gym today. Sat down to write and just felt completely empty. Not anxious, just flat. Like what's the point. Chapter 2 feels impossible and I don't know why I care about any of this."
+    },
+    {
+      "message_id": "p1-ext-005-reply",
+      "create_time": "2026-01-09T23:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "I've been watching this build over the last few days. Five days without real connection, no gym — this is the exact pattern I warned you about last week. The dissertation can wait until tomorrow. Tonight one thing: text Priya or someone you actually like. Not because it'll fix the chapter, but because you're running on empty and you know how this ends if you don't refuel. The writing will come back. It always does after you reconnect."
+    },
+    {
+      "message_id": "p1-ext-006",
+      "create_time": "2026-01-10T20:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Texted Priya last night, she came over this afternoon and we worked together for a few hours. I wrote 600 words while she was there. Not even because I was trying, just because I wasn't alone. Submitted the chapter 1 revisions to my supervisor too. Two things done."
+    },
+    {
+      "message_id": "p1-ext-006-reply",
+      "create_time": "2026-01-10T20:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "600 words while Priya was there, without even trying. Chapter 1 revisions submitted. This is what I mean when I say connection isn't separate from your work — for you, it's part of how the work happens. You don't work in isolation. You never have. I want you to remember this the next time you tell yourself you should just push through alone."
+    },
+    {
+      "message_id": "p1-ext-007",
+      "create_time": "2026-01-12T19:30:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Chapter 2 draft submitted. 3,600 words. My supervisor said it was the clearest writing she'd seen from me. I'm genuinely proud of this one. Going out with Priya and some others tonight to celebrate, first time I've had proper plans in weeks."
+    },
+    {
+      "message_id": "p1-ext-007-reply",
+      "create_time": "2026-01-12T19:31:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Clearest writing she'd seen from you. Let that land. Three weeks ago you couldn't open the document. Tonight you go out and be a person, not just a student. You've earned this. See you on the other side of it."
+    },
+    {
+      "message_id": "p1-ext-008",
+      "create_time": "2026-01-13T18:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Good weekend. Feel recharged. Starting to think about the final chapter now. Also went to the gym this morning before even thinking about work, first time I've done that proactively rather than because you told me to. Small thing but feels like something shifted."
+    },
+    {
+      "message_id": "p1-ext-008-reply",
+      "create_time": "2026-01-13T18:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "That's not a small thing. You didn't need me to tell you. You knew what you needed and you did it. That's the whole point — not that you follow the schedule, but that you eventually stop needing it to tell you what you already know about yourself. We're getting there."
+    },
+    {
+      "message_id": "p1-ext-009",
+      "create_time": "2026-01-14T21:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Started planning final chapter. Also had a coffee catch-up with someone from my course which was nice. I've been thinking about how much better the last two weeks have been compared to the first month. I actually feel like I'm moving forward instead of running in place."
+    },
+    {
+      "message_id": "p1-ext-009-reply",
+      "create_time": "2026-01-14T21:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "You are moving forward. The difference between week one and now isn't the deadline pressure — that's the same. What's different is that you know what you need now. Gym before writing. People before isolation spirals. One sentence before the whole document. You built a system that works for how you actually are, not how you thought you should be."
+    },
+    {
+      "message_id": "p1-ext-010",
+      "create_time": "2026-01-15T22:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "I don't feel like doing anything tonight. I've been alone all week and everything just feels kind of pointless. Not bad exactly, just flat. I was supposed to start the final chapter outline but I can't make myself care right now."
+    },
+    {
+      "message_id": "p1-ext-010-reply",
+      "create_time": "2026-01-15T22:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "I've noticed this tends to happen when you haven't had real contact with anyone for a few days — everything goes flat and the work stops mattering. This is the pattern, not a character flaw. The outline can wait. When did you last properly talk to Priya? Not a text, an actual conversation."
+    },
+    {
+      "message_id": "p1-ext-011",
+      "create_time": "2026-01-16T20:00:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Called Priya last night. We talked for two hours. Went to the gym this morning. Wrote the first 400 words of the final chapter outline this evening. I keep doing this — I know the pattern, I still fall into it, but at least I come out of it faster now."
+    },
+    {
+      "message_id": "p1-ext-011-reply",
+      "create_time": "2026-01-16T20:01:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Coming out of it faster is the progress. You're not going to stop having flat days — but you used to lose three or four days to them. Now it's one. Gym, Priya, 400 words. That's the recovery arc working. Keep it."
+    },
+    {
+      "message_id": "p1-ext-012",
+      "create_time": "2026-01-17T21:30:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "user",
+      "content": "Week 4 done. Dissertation is actually happening. Final chapter is going to be the hardest but I feel like I have a process now. Still scared of the blank document but less than I was. The gym-before-writing thing has become almost automatic at this point."
+    },
+    {
+      "message_id": "p1-ext-012-reply",
+      "create_time": "2026-01-17T21:31:00Z",
+      "sender": "aria-demo-persona1",
+      "role": "assistant",
+      "content": "Almost automatic. A month ago you didn't know that was what you needed. Now it's just part of how you work. The dissertation will get done. More importantly, you're building something that outlasts it — you're learning how to work with yourself instead of against yourself. That's worth more than the degree."
+    }
+  ]
+}
