@@ -66,7 +66,7 @@ Without memory, ARIA responds to disruptions like any capable AI scheduler — c
 
 ## 3. Deployed URL
 
-[INSERT VERCEL URL HERE]
+(https://aria-evermind.vercel.app)
 
 **Demo instructions:**
 1. Open the deployed URL
