@@ -82,32 +82,30 @@ export default function Mascot({
   // so re-triggering happy after it completes actually restarts the animation.
   const [happyKey, setHappyKey]         = useState(0);
   const [isHappyPlaying, setHappyPlaying] = useState(false);
-  const happyTimerRef                    = useRef<ReturnType<typeof setTimeout>>();
+  const happyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (state === 'happy') {
       setHappyKey(k => k + 1);
       setHappyPlaying(true);
-      clearTimeout(happyTimerRef.current);
-      // Match the keyframe duration (0.9s) then stop so we don't loop
+      clearTimeout(happyTimerRef.current!);
       happyTimerRef.current = setTimeout(() => setHappyPlaying(false), 950);
     }
-    return () => clearTimeout(happyTimerRef.current);
+    return () => clearTimeout(happyTimerRef.current!);
   }, [state]);
 
   // ── Bubble visibility: keep bubble mounted briefly after message clears ────
-  // Prevents a jarring snap-disappear when the message prop goes null.
   const [visibleMessage, setVisibleMessage] = useState(message);
-  const bubbleFadeRef = useRef<ReturnType<typeof setTimeout>>();
+  const bubbleFadeRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (message) {
       setVisibleMessage(message);
-      clearTimeout(bubbleFadeRef.current);
+      clearTimeout(bubbleFadeRef.current!);
     } else {
       bubbleFadeRef.current = setTimeout(() => setVisibleMessage(null), 300);
     }
-    return () => clearTimeout(bubbleFadeRef.current);
+    return () => clearTimeout(bubbleFadeRef.current!);
   }, [message]);
 
   // ── Derive animation class ─────────────────────────────────────────────────
