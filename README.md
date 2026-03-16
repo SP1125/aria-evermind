@@ -47,8 +47,6 @@ npm run dev
 
 ## 2. Demo Video
 
-[INSERT LOOM/VIDEO LINK HERE]
-
 The video covers:
 
 **(a) Features**
