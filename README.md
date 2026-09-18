@@ -8,8 +8,8 @@
 
 This repository contains the full source code for ARIA, including:
 
-- `src/app/` — Next.js App Router pages and API routes (`/api/chat`, `/api/schedule`, `/api/extract`)
-- `src/components/` — React components including the animated Mascot and Onboarding flow
+- `app/` — Next.js App Router pages and API routes (`/api/chat`, `/api/schedule`, `/api/extract`)
+- `components/` — React components including the animated Mascot and Onboarding flow
 - `services/` — EverMemOS Cloud API integration (`evermemos.js`) and OpenAI GPT wrapper (`openai.js`)
 - `utils/` — Extraction prompt (`prompts.js`) and fallback profile builder
 - `data/seeds/` — Persona seed data and scripts to populate EverMemOS with demo conversation history
