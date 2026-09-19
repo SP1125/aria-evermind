@@ -50,7 +50,7 @@ ARIA combines:
 
 ### Architecture
 
-```mermaid
+```text
 flowchart TD
     A[User] --> B[ARIA Web App]
 
